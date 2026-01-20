@@ -126,4 +126,4 @@ CREATE TABLE users (
 
 <h2>10- Annexes :  </h2>
 
-Lien drive vers le setup de l'application + des videos explicatives : 
+Lien drive vers le setup de l'application + des videos explicatives :  https://drive.google.com/file/d/19E56m_VchQb9DwowfuIMGtbuXjyyv6aK/view?usp=sharing
