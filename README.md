@@ -18,15 +18,29 @@ Cette division suit le principe d'une unique responsabilité afin d'éviter tout
 3- Description des packages et des classes
 
 Le package modèle comprend une classe Java qui définit un bien avec les attributs :id_bien, ville, surface et prix mensuel.
-Propriétaire avec : id_proprio le nom du contact et l'adresse. Et location pour id location , la ville ,les dates de location et la propriété associée.
+Propriétaire avec : id_proprio le nom du contact et l'adresse. 
+Et location pour id location , la ville ,les dates de location et la propriété associée.
 Pour les biens DAO, nous avons BienDao. DaoPropriétaire destiné aux propriétaires. LocationDao pour la gestion des locations, ainsi que UserDao et StatistiqueDao.
 Cela permet d'extraire les informations sans avoir à rédiger du SQL à chaque fois.
 
 4- Fonctionnalités CRUD et interfaces graphiques
 
 Les opérations CRUD sont incluses dans le package crud, comportant des Jframe telles que Gestion des Biens pour l'ajout, la modification et la suppression de biens ainsi que la rechercher et quelque filtres.
-C'est le même cas pour les propriétaires et les locations. Pour vous connecter, utilisez MenuLogin pour accéder aux menus.
+<img width="1585" height="829" alt="image" src="https://github.com/user-attachments/assets/b937f768-2a68-49dd-8637-e932e3871882" />
+
+C'est le même cas pour les propriétaires et les locations. 
+
+<img width="1457" height="656" alt="image" src="https://github.com/user-attachments/assets/20f8a7c7-3d7a-4e61-bb74-a7dbbdd15fe2" />
+<img width="1297" height="686" alt="image" src="https://github.com/user-attachments/assets/ca78e2e6-2a8c-48f2-9d06-e5307f3dd84e" />
+
+Pour vous connecter, utilisez MenuLogin pour accéder aux menus.
+<img width="938" height="738" alt="image" src="https://github.com/user-attachments/assets/063c5b0f-afbb-4608-8392-40c92242da09" />
+<img width="2560" height="1353" alt="image" src="https://github.com/user-attachments/assets/f792152b-25cb-4cad-926c-67550e2a2eca" />
+
+
 Inscription via MenuRegister et navigation via MenuPrincipal.
+<img width="1045" height="812" alt="image" src="https://github.com/user-attachments/assets/0855806f-fe94-478d-b8b8-e46dc2eee483" />
+
 
 5- Conception de la base de données
 
