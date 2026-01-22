@@ -126,4 +126,13 @@ CREATE TABLE users (
 
 <h2>10- Annexes :  </h2>
 
-Lien drive vers le setup de l'application + des videos explicatives :  https://drive.google.com/file/d/19E56m_VchQb9DwowfuIMGtbuXjyyv6aK/view?usp=sharing
+Videos explicatives :
+Partie 1: Presentation des classe et Des Jforme :
+
+https://github.com/user-attachments/assets/2e4d5f31-c213-47f9-8e72-efc2213c007b
+
+Partie 2: Run de L'application :
+
+https://github.com/user-attachments/assets/e28668e1-7d17-427b-9e95-b3841e9d2791
+
+
