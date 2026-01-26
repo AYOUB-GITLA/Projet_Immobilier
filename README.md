@@ -11,8 +11,9 @@ Cela nous a permis de nous exercer à la programmation orientée objet et à l'a
 
 J'ai envisagé une architecture multi-niveaux proche a l'architecture MVC pour en assurer la facilité de maintenance.
 Les paquets sont distincts, avec un pack modèle pour les classes des biens, des propriétaires et de locations, un pack DAO pour l'accès aux données,
-et un pack CRUD pour les opérations de création, lecture, mise à jour et suppression ce sont des interfaces graphiques . Ensuite, il y a le pack de connexion pour MySQL,
-le pack de menu pour les interfaces utilisateurs ( pour ce connecter ou s'inscrire et dashbord ) et le pack util pour les graphiques.
+et un pack CRUD pour les opérations de création, lecture, mise à jour et suppression ce sont des interfaces graphiques . 
+Ensuite, il y a le pack de connexion pour MySQL,le pack de menu pour les interfaces utilisateurs 
+( pour ce connecter ou s'inscrire et dashbord ) et le pack util pour les graphiques.
 Cette division suit le principe d'une unique responsabilité afin d'éviter toute confusion.
 
 <h2>3- Description des packages et des classes</h2>
@@ -54,10 +55,15 @@ Des utilisateurs ayant un identifiant, nom, prénom, email et mot de passe. Les 
 
 <img width="418" height="633" alt="Nouveau document texte" src="https://github.com/user-attachments/assets/0b2965c2-936e-4f06-9b96-fbaad9528820" />
 
+<h3>5-2 Diagramme de cas d'utilisation :</h3>
+
+<img width="813" height="760" alt="Nouveau document texte (2)" src="https://github.com/user-attachments/assets/fba3e19c-8148-4980-87a1-b04ec9fec62f" />
+
+
 <h2>6- Technologies utilisées et résultats obtenus</h2>
 
 J'ai utilisé Java JDK 8, NetBeans, et MySQL avec plusieurs autres jar pour importer des bibliothèques comme MySQL Connector, JCalendar et JFreeChart.
-Les opérations fonctionnent, vous avez la possibilité d'ajouter, de modifier ou de supprimer des biens, la meme chose pour les propriétaires et les locations.
+Les opérations CRUD fonctionnent, nous avons la possibilité d'ajouter, de modifier ou de supprimer des biens, la meme chose pour les propriétaires et les locations.
 Réaliser automatiquement le calcul des revenus, en fonction de la ville ou du type, et même les propriétaires élaborer des graphiques concernant les loyers par ville ou les propriétaires selon le type de bien.
 
 <h2>7- Analyse et diagrammes</h2>
